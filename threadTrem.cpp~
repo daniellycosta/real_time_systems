@@ -32,6 +32,8 @@
 #include <semaphore.h>
 #include <string.h>
 
+#define DURACAO 60 /* tem que ser o suficiente para que cada trem dê pelo menos uma volta */
+
 pthread_mutex_t t5; /* proteção para o trilho 5 */
 pthread_mutex_t t6; /* proteção para o trilho 6 */
 
